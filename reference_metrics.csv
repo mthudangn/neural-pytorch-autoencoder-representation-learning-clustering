@@ -1,0 +1,17 @@
+experiment,configuration,metric,value
+soft_em,n_clusters_4,iterations,77
+soft_em,n_clusters_4,final_log_likelihood,-2380383.7672
+hard_em,n_clusters_4,iterations,10
+hard_em,n_clusters_4,final_marginal_log_likelihood,-2397669.6
+perceptron,early_stopping_eta_0.01_l2_1.0,test_error,0.1210
+perceptron,fixed_eta_0.001_l2_0.0001,test_error,0.1205
+mlp,hidden_15_eta_0.1_l2_0.001,test_error,0.0010
+mlp,hidden_25_eta_0.1_l2_1.0,test_error,0.0135
+autoencoder,hidden_20,reconstruction_error,21.505257
+autoencoder,hidden_60,reconstruction_error,18.082838
+autoencoder,hidden_100,reconstruction_error,16.084755
+autoencoder,hidden_140,reconstruction_error,14.588547
+autoencoder,hidden_180,reconstruction_error,13.523723
+autoencoder,hidden_220,reconstruction_error,12.604636
+self_taught,hidden_180,baseline_test_error,0.5280
+self_taught,hidden_180,self_taught_test_error,0.4540
